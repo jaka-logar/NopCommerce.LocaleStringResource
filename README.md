@@ -11,12 +11,12 @@ New localization strings are inserted in simple txt file as Key=Value. App reads
 
 # Usage
 First open file UpdateLocalization.template.bat and edit at least "path to app".\
-Other parameters are:
--- l -> language identifier
--- createXml -> option if XML file should be created
--- createSql -> option if SQL file should be created
--- xmlFile -> path to XML file
--- sqlFile -> path to SQL file
+Other parameters are:\
+-- l -> language identifier\
+-- createXml -> option if XML file should be created\
+-- createSql -> option if SQL file should be created\
+-- xmlFile -> path to XML file\
+-- sqlFile -> path to SQL file\
 -- inputFile -> path to txt file of new localization
 
 Then open file NewLocalization.template.txt and append new localization strings as Key=Value.\
