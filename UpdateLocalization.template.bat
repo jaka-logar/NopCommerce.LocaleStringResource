@@ -1,0 +1,1 @@
+call "[path to app]\LocaleStringResourceUpdate.exe" --l 1 --createXml --createSql --inputFile NewLocalization.template.txt --sqlFile LocaleStringResource.sql --xmlFile LocaleStringResource.xml
